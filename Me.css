@@ -1,0 +1,77 @@
+body{
+    background: #272727;
+}
+#header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+}
+#logo{
+    position: absolute; top: -27%; left: 46%;
+}
+#article0{
+    height: 120px;
+    width: 69%;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px white;
+    border-radius: 25px;
+    position: absolute; top: 150px; left: 14%;
+}
+#MM{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: 325px; left: 27%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+#MM:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: 330px; left: 28%;
+    font-size: 15px;
+}
+#MM:hover{
+    border: 3px solid white;
+}
+#projectsB{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: 325px; left: 60%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+#projectsB:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: 330px; left: 61%;
+    font-size: 15px;
+}
+#projectsB:hover{
+    border: 3px solid white;
+}
+#article0 h1{
+ position: absolute; top: 22%; right: 0%;
+ color: black;
+ cursor: default;
+}

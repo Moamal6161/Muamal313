@@ -1,0 +1,98 @@
+body{
+    background: #272727;
+}
+#header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+}
+#logo{
+    position: absolute; top: -27%; left: 46%;
+}
+#article0{
+    height: 250px;
+    width: 50%;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border:3px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left:22%;
+}
+#article0 h1{
+    position:absolute; left:40%;
+    font-size: 50px;
+}
+#button{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: 150px; left: 3%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+#button:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: 153px; left: 4%;
+    font-size: 15px;
+}
+#button:hover{
+    border:3px solid white;
+}
+#button0{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: 150px; left: 76%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+#button0:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: 153px; left: 77%;
+    font-size: 15px;
+}
+#button0:hover{
+    border:3px solid white;
+}
+#mainmenuB{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: 150px; left: 42%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+#mainmenuB:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: 153px; left: 43%;
+    font-size: 15px;
+}
+#mainmenuB:hover{
+    border:3px solid white;
+}
+

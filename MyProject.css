@@ -1,0 +1,111 @@
+body{
+    background: #272727;
+}
+#header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to right, orange, yellow);
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+}
+#logo{
+    position: absolute; top: -27%; left: 46%;
+}
+#article{
+    background-image: linear-gradient(to right, orange, yellow) ;
+    height: 75px;
+    width: 30%;
+    position: absolute;
+    top:200px;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#article h1{
+    position: absolute;
+    left: 35%;
+}
+#article0{
+    background: #272727;
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    top:300px;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#article1{
+    background-image: linear-gradient(to right, orange, yellow) ;
+    height: 75px;
+    width: 30%;
+    position: absolute;
+    top:760px;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#article1 h1{
+    position: absolute;
+    left: 35%;
+}
+#article2{
+    background-image: linear-gradient(to right, orange, yellow) ;
+    height: 450px;
+    width: 30%;
+    position: absolute;
+    top:860px;
+    left: 33%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+#article3{
+    height: 100px;
+    width: 30%;
+    position: absolute;
+    top: 1500px;
+    left: 33%;
+}
+#mainmenuB{
+    color: black;
+    background-image: linear-gradient(to right, orange, yellow) ;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute; top: -80%; left: 36%;
+    height: 80px;
+    width: 110px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    font-size: 20px;
+}
+#mainmenuB:active{
+    height: 65px;
+    width: 95px;
+    position: absolute; top: -76%; left: 38%;
+    font-size: 15px;
+}
+#mainmenuB:hover{
+    border: 3px solid white;
+}
+#img{
+    position: absolute;
+    top: 49%;
+}
+#img3{
+    position:absolute;
+    top:310px;
+    left: 44%;
+}
+#img4{
+    position: absolute;
+    top:520px;
+    left:33.4%;
+    
+}
